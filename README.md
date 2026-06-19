@@ -2,6 +2,7 @@
 
 Monorepo cho UI library nội bộ, dùng `pnpm` workspace + `turbo`.
 
+[![CI](https://github.com/Zyrkael/nyx-ui/actions/workflows/pr-checks.yml/badge.svg)](https://github.com/Zyrkael/nyx-ui/actions/workflows/pr-checks.yml)
 [![workspace](https://img.shields.io/badge/workspace-pnpm%20%2B%20turbo-0f766e)](./package.json)
 [![ui](https://img.shields.io/badge/ui-shadcn%2Fui%20%2B%20tailwind%20v4-1d4ed8)](./packages/ui/package.json)
 [![docs](https://img.shields.io/badge/docs-storybook%2010-f43f5e)](./apps/docs/package.json)
