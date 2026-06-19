@@ -1,0 +1,17 @@
+* @Zyrkael
+
+/packages/ui/ @Zyrkael
+/packages/theme/ @Zyrkael
+/packages/icons/ @Zyrkael
+
+/packages/core/ @Zyrkael
+/packages/form/ @Zyrkael
+/packages/grid/ @Zyrkael
+/packages/utils/ @Zyrkael
+
+/apps/docs/ @Zyrkael
+/apps/playground/ @Zyrkael
+
+/AGENTS.md @Zyrkael
+/.agents/ @Zyrkael
+/.github/ @Zyrkael
