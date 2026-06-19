@@ -1,24 +1,24 @@
 @import "tailwindcss";
 
 @theme {
-  --color-background: oklch(1 0 0);
-  --color-foreground: oklch(0.18 0.03 257);
-  --color-card: oklch(1 0 0);
-  --color-card-foreground: oklch(0.18 0.03 257);
-  --color-popover: oklch(1 0 0);
-  --color-popover-foreground: oklch(0.18 0.03 257);
-  --color-primary: oklch(0.55 0.2 258);
-  --color-primary-foreground: oklch(0.98 0.01 255);
-  --color-secondary: oklch(0.96 0.01 255);
-  --color-secondary-foreground: oklch(0.23 0.03 257);
-  --color-muted: oklch(0.96 0.01 255);
-  --color-muted-foreground: oklch(0.52 0.03 257);
-  --color-accent: oklch(0.95 0.02 252);
-  --color-accent-foreground: oklch(0.22 0.03 257);
+  --color-background: oklch(0.99 0.01 235);
+  --color-foreground: oklch(0.24 0.04 244);
+  --color-card: oklch(1 0.01 235);
+  --color-card-foreground: oklch(0.24 0.04 244);
+  --color-popover: oklch(1 0.01 235);
+  --color-popover-foreground: oklch(0.24 0.04 244);
+  --color-primary: oklch(0.68 0.15 240);
+  --color-primary-foreground: oklch(0.99 0.01 235);
+  --color-secondary: oklch(0.95 0.02 230);
+  --color-secondary-foreground: oklch(0.32 0.05 242);
+  --color-muted: oklch(0.96 0.015 232);
+  --color-muted-foreground: oklch(0.55 0.04 242);
+  --color-accent: oklch(0.92 0.04 226);
+  --color-accent-foreground: oklch(0.3 0.05 242);
   --color-destructive: oklch(0.58 0.24 27);
-  --color-border: oklch(0.9 0.01 255);
-  --color-input: oklch(0.9 0.01 255);
-  --color-ring: oklch(0.55 0.2 258);
+  --color-border: oklch(0.89 0.02 231);
+  --color-input: oklch(0.89 0.02 231);
+  --color-ring: oklch(0.72 0.13 236);
   --radius: 1rem;
 }
 
@@ -52,6 +52,6 @@
 
   body {
     @apply bg-[var(--background)] text-[var(--foreground)] antialiased;
-    font-family: "Segoe UI", sans-serif;
+    font-family: "Trebuchet MS", "Segoe UI", sans-serif;
   }
 }
